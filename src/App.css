@@ -1,0 +1,58 @@
+*{
+  scroll-behavior: smooth;
+}
+
+.app{
+  min-height: 100vh;
+  background-color: #39445a;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+
+.pageTitle{
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-size: 2vw;
+  font-family: "Montserrat",sans-serif;
+  padding: 4px;
+  border-radius: 50px;
+  color: white;
+}
+
+.css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root {
+  color: white !important;  
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  background-color: rgba(255, 255, 255, 0.09);
+}
+
+.css-1vn4y0d-MuiFormLabel-root-MuiInputLabel-root {
+    color: white !important;
+}
+
+.css-18md96b-MuiButtonBase-root-MuiTab-root {
+  color: inherit !important;
+}
+
+.MuiBottomNavigation-root{
+  background-color: #2d313a !important;
+}
+
+.MuiInputBase-input{
+  -webkit-tap-highlight-color: transparent !important;  
+}
+
+@media (max-width:700px){
+  .app{
+    padding-top: 70px;
+  }
+}
+
+@media (max-width:1000px){
+  .pageTitle{
+    font-size: 6.4vw;
+  }
+}
